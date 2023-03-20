@@ -1,0 +1,58 @@
+.left_side{
+    height: 100%;
+    width: 90px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    opacity: 75%;
+}
+
+.left_side a{
+    display: block;
+    text-align: center;
+    padding: 16px;
+    margin: 15%;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 30px;
+}
+
+#h{
+    margin-top: 50px;
+}
+
+#logout{
+
+}
+
+.left_side a:hover{
+    background-color: #F5C001;
+    border-radius: 50%;
+}
+
+
+
+.logo{
+    position: absolute;
+    left: 150px;
+    top: 30px;
+}
+
+.user{
+    height: 100%;
+    width: 360px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+    opacity: 75%;
+}
+
+

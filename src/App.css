@@ -1,0 +1,7 @@
+body{
+  background: url(restaurant.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow-x: hidden;
+}
+

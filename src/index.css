@@ -1,0 +1,549 @@
+.left_side{
+  height: 100%;
+  width: 90px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  opacity: 75%;
+}
+
+.left_side a{
+  opacity: 100%;
+  display: block;
+  text-align: center;
+  padding: 16px;
+  margin: 10px;
+  transition: all 0.3s ease;
+  color: white;
+  font-size: 30px;
+}
+
+#h{
+  margin-top: 50px;
+}
+
+
+.left_side a:hover{
+  background-color: #F5C001;
+  border-radius: 50%;
+}
+
+
+
+.logo{
+  position: absolute;
+  left: 150px;
+  top: 30px;
+}
+
+.user{
+  height: 100%;
+  width: 360px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 20px;
+  opacity: 75%;
+}
+
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
+html{
+  margin: 0;
+  padding: 0;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f2f2f2;
+  padding: 20px;
+  color: #222222;
+}
+
+input,
+button {
+  font-family: "Ubuntu", sans-serif;
+  outline: none;
+  font-size: 1rem;
+}
+
+.container {
+  max-width: 650px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 20px;
+  border-radius: 3px;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-top: 10px;
+  text-transform: uppercase;
+  font-size: 32px;
+}
+
+.myform {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px 0 50px 0;
+}
+
+.myform form {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+.myform form label {
+  font-weight: bold;
+}
+
+.myform form input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #bbbbbb;
+  border-radius: 3px;
+  margin-bottom: 5px;
+}
+
+.myform form input:hover {
+  border-color: #999999;
+}
+
+.myform form input:focus {
+  border-color: #86a5e3;
+}
+
+[type="submit"] {
+  background:#FF7A66;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 3px;
+  padding: 12px 0;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-top: 5px;
+  font-weight: bold;
+  width: 100%;
+}
+
+[type="submit"]:disabled {
+  background: #77aee5;
+}
+
+[type="submit"]:disabled:hover {
+  box-shadow: none;
+}
+
+
+.success-msg,
+.err-msg {
+  color: #dc3545;
+  border: 1px solid #dc3545;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.success-msg {
+  color: #ffffff;
+  background-color: #20c997;
+  border-color: rgba(0, 0, 0, 0.1);
+}
+
+.bottom-link {
+  background:#FFC172;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.175);
+  border-radius: 3px;
+  padding: 12px 0;
+  cursor: pointer;
+  box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+  margin-top: 5px;
+  font-weight: bold;
+  width: 100%;
+  text-decoration: none;
+}
+
+.bottom-link-2{
+  color: white;
+  text-decoration: none;
+}
+
+.rcard{
+  transition: 1s;
+  border: #111;
+  min-height: 260px;
+  min-width: 150px;
+  margin-right: 5px
+}
+
+.rcard:hover{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.ourpick{
+  height: 45%;
+  width: 65%;
+  background-color:#f1f1f1;
+  z-index: 1;
+  top: 30%;
+  left: 10%;
+  position: absolute;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  border-radius: 20px;
+}
+
+
+
+.menu{
+  height: 90%;
+  left:500px;
+  top:30px;
+  position:absolute;
+  overflow-y: scroll;
+  background-color: #FF7A66;
+  border-radius: 20px;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px;
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888; 
+  border-radius: 5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.total{
+  bottom: 100px;
+  position: absolute;
+  right: 145px;
+  z-index: 1;
+  padding: 5px;
+  background-color: #e1dfdf;
+  border-radius: 5px;
+
+}
+
+.location{
+  position: absolute;
+  bottom: 50px;
+  left: 175px;
+  background-color:#FF7A66;
+  border-radius: 20px;
+  width: 62%;
+  padding: 20px;
+}
+
+.inputlocation{
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: none;
+  background-color:#FF7A66;
+  border-bottom: 2px solid black;
+}
+
+.restinfo{
+  position:absolute;
+  bottom: 40px;
+  left: 150px;
+}
+
+.loc_icon{
+  position: absolute;
+  width: 223px;
+  height: 146px;
+  right: 50px;
+  bottom: 15px;
+  
+}
+
+.TopMargin{
+  position: relative;
+  top: -10px;
+}
+
+.orderbox{
+    background-color:white;
+    border-radius: 25px;
+    position:absolute;
+    width: 900px;
+    height: 500px;
+    left: 200px;
+    top:200px;
+    justify-content: center;
+    align-items:center;
+}
+
+.obutton{
+    position:sticky;
+    background-color:#FF7A66;
+    color:aliceblue;
+    border-radius: 25px;
+    border: 0ch;
+    width: 197px;
+    height:44px;
+    left: 675px;
+    bottom: 20px;
+    filter: drop-shadow(0px 5px 4px rgba(0, 0, 0, 0.25));
+    float: inline-end;
+}
+
+.mainSet{
+  position: absolute;
+  width: 900px;
+  height: 40  0px; 
+  left: 200px;
+  top:250px;
+  border-radius: 0px 15px 15px 15px;
+  padding: 20px;
+  background-color: aliceblue;
+}
+
+.SettingName{
+ text-align: center;
+  position: absolute;
+  width: 100px;
+  height: 30px;
+  left: 201px;
+ top: 220px;
+ border-radius: 15px 15px 0px 0px ;
+ background-color: aliceblue;
+ padding: 5px;
+ 
+}
+
+.Setcomponent{
+ position: relative;
+  width: 850px;
+  height: 60px; 
+  padding: 5px;
+  border-radius: 5px ;
+  background-color: aliceblue;
+  filter: drop-shadow(0px 1px 1px rgba(0, 0, 0, 0.25));
+  border: 0px;
+  text-align: left;
+  margin:10px;
+}
+
+.notbold{
+ font-weight: normal;
+}
+
+.order{
+  position: absolute;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.sbutton{
+  position:relative;
+  color:black;
+  border-radius: 5px;
+  left: 20px;
+  top: 8px;
+  border: 0ch;
+  width: 90px;
+  height:25px;
+  filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+}
+
+.ftotal{
+  position:sticky;
+  width: 197px;
+  height:44px;
+  left: 725px;
+  bottom: 60px;
+}
+
+.orderinfo{
+  background-color: white;
+  position: relative;
+  width: auto;
+  padding: 20px;
+  margin: 15px;
+  border-radius: 10px;
+  border: 0px;
+  filter: drop-shadow(0px 2px 1px rgba(0, 0, 0, 0.25));
+}
+
+.asidebar{
+  position:fixed;
+  width: 220px;
+  height: 100%;
+  top: 0px;
+  left: 0px;
+  background-color:rgba(21, 21, 21, 0.868);
+  border: 2px;
+  text-align: center;
+  padding-top: 20px;
+  filter: drop-shadow(0px 0px 2px rgba(0, 0, 0, 0.25));
+}
+.top{
+  position: relative;
+  width: 110%;
+  height: 70px;
+  top:-30px;
+  left: -20px;
+  background-color: rgb(28, 28, 28);
+  color:white;
+  padding: 20px;
+  text-align: start;
+}
+.b{
+  top: 50px;
+  text-align: left;
+  border: 0px;
+  position: relative;
+  width: 190px;
+  height: 50px;
+  margin:10px;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#l{
+  z-index: 1;
+  position: relative;
+  width: 75%;
+}
+
+#lo{
+  width: 4%;
+}
+
+.cardAd{
+  position:absolute;
+  top: 140px; 
+  left: 250px; 
+}
+
+.cardB{
+  position: relative;
+  width: 300px;
+  height: 150px;
+  border: 0px;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+  margin:5px;
+}
+
+.NRmain{
+  position: relative;
+  width: 800px;
+  height: 530px;
+  left: 450px;
+  background-color: rgb(229, 233, 236);
+  border-radius: 5px;
+  filter: drop-shadow(0px 4px 2px rgba(0, 0, 0, 0.25));
+  padding: 15px;
+  border: 2px;
+}
+
+.inputbox{
+  width: 100%;
+margin-top: 20px;
+}
+
+.NRsect header {
+  font-size: 1.5rem;
+  color: #333;
+  font-weight: 500;
+  text-align: center;
+}
+
+.NRform .inputbox {
+  width: 100%;
+  margin-top: 20px;
+}
+
+/* index box css */
+.NRform :where(.inputbox input, .select-box) {
+  position: relative;
+  height: 30px;
+  width: 100%;
+  outline: none;
+  font-size: 1rem;
+  color: #707070;
+  margin-top: 8px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 0 15px;
+}
+.NRform button {
+  height: 30px;
+  width: 100%;
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-top: 30px;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  background: rgb(130, 106, 251);
+  border-radius: 5px ;
+}
+
+.dropdown{
+  position: fixed;
+  left: 875px;
+  top: 320px;
+  width: 200px;
+}
+
+.am{
+  background: rgb(130, 106, 251);
+  border: none;
+  border-radius: 5px;
+  width: 100px;
+  color: whitesmoke;
+  height: 30px;
+}
+
+.scrl{
+  position: absolute;
+  height: 95%;
+  overflow-y: scroll;
+  left: 550px;
+}
