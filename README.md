@@ -1,7 +1,7 @@
-#Food Bytes
+# Food Bytes
 This is a food ordering web application built using react
 
-##To test 
+## To test 
 Run command:
 ### `npm start`
 
