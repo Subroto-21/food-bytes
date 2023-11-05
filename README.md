@@ -17,8 +17,8 @@ Food Bytes is a delightful food ordering web application built using React. It a
 - **Axios:** HTTP client for making API requests.
 
 ## Screenshots
-![Login]([IMAGE_URL](https://user-images.githubusercontent.com/68593215/280527340-34d97ebb-b73b-466d-80b2-cd18c9680057.png)https://user-images.githubusercontent.com/68593215/280527340-34d97ebb-b73b-466d-80b2-cd18c9680057.png)
-![Homepage]([IMAGE_UR](https://user-images.githubusercontent.com/68593215/280527354-7b169269-a79c-487b-9d57-e2f39185822c.png)https://user-images.githubusercontent.com/68593215/280527354-7b169269-a79c-487b-9d57-e2f39185822c.pngL)
+![Login](https://user-images.githubusercontent.com/68593215/280527340-34d97ebb-b73b-466d-80b2-cd18c9680057.png)
+![Homepage](https://user-images.githubusercontent.com/68593215/280527354-7b169269-a79c-487b-9d57-e2f39185822c.png)
 ![Update Restaurant](https://user-images.githubusercontent.com/68593215/280527358-eb65f3ea-2392-4419-9d14-006ae85b8958.png)
-![Update Menu]([IMAGE_URL](https://user-images.githubusercontent.com/68593215/280527366-ca66f20e-97bb-4055-ad5a-b5d8cb3a57ef.png)https://user-images.githubusercontent.com/68593215/280527366-ca66f20e-97bb-4055-ad5a-b5d8cb3a57ef.png)
+![Update Menu](https://user-images.githubusercontent.com/68593215/280527366-ca66f20e-97bb-4055-ad5a-b5d8cb3a57ef.png)
 ![Manage Users](https://user-images.githubusercontent.com/68593215/280527372-50001040-963b-44bb-88b9-5f1bbd20bb7c.png)
