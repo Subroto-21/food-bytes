@@ -24,5 +24,5 @@ Food Bytes is a delightful food ordering web application built using React. It a
 ![Manage Users](https://user-images.githubusercontent.com/68593215/280527372-50001040-963b-44bb-88b9-5f1bbd20bb7c.png)
 
 ## Other Projects
-[Whatsapp Automation tool](https://github.com/Subroto-21/chatgpt_response_saving)
-[Clubs and Event Management Backend](https://github.com/Subroto-21/Clubs-Event-Management)
+- [Whatsapp Automation tool](https://github.com/Subroto-21/chatgpt_response_saving)
+- [Clubs and Event Management Backend](https://github.com/Subroto-21/Clubs-Event-Management)
